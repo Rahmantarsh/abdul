@@ -1,0 +1,14 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+}
+
+canvas {
+    display: block;
+    background: url('myPhoto.jpg') no-repeat center center;
+    background-size: cover; /* Resize image to cover the entire canvas */
+    border: 2px solid black;
+}
